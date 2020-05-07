@@ -29,7 +29,7 @@ torch
 - `Report.pdf`: Report
 
 ## Instructions
-Run the `Navigation.ipynb` to train the agent using DQN and DDQN. The average rewards over 100 consecutive episodes will be printed
+Run the `Navigation.ipynb` to train the agent using DQN and DDQN. The average rewards over 100 consecutive episodes will be printed.
 A plot showing the agent progress will be shown, and the model weights will be saved in files `checkpoint.pth`. Nevertheless, the repository contains weights trained using DDQN.
 
 ## Report
