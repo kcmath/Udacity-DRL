@@ -33,4 +33,4 @@ Run the `Navigation.ipynb` to train the agent using DQN and DDQN. The average re
 A plot showing the agent progress will be shown, and the model weights will be saved in files `checkpoint.pth`. Nevertheless, the repository contains weights trained using DDQN.
 
 ## Report
-The detailed description of the solution is summarised in `Report.pdf`
+The detailed description of the solution is summarised in `Report.pdf`.
