@@ -1,16 +1,10 @@
-# p1-Navigation
+# p2-ContinuousControl
 
 ### Introduction
-An agent is trained to navigate and collect bananas in a large, square world. The primary objective is to get an average score of +13 over 100 consecutive episodes. The Deep Q-network and Double Q-network are utilized for the task. 
+An agent is trained to move a double-jointed arm to target locations. Considering the first version, the primary objective is to get an average score of +30 over 100 consecutive episodes. The Deep Deterministic Policy Gradient (DDPG) and Twin Delayed Deep Deterministic (TD3) are utilized for the task.
 
 ### Project details
-The environment is simulated by Unity application _Banana_. An agent is trained to navigate and collect bananas in a large, square world. A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of the agent is to collect as many yellow bananas as possible while avoiding blue bananas.
-
-The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction. Given this information, the agent has to learn how to best select actions. Four discrete actions are available, corresponding to:
-- **`0`** - move forward.
-- **`1`** - move backward.
-- **`2`** - turn left.
-- **`3`** - turn right.
+An agent is trained to move a double-jointed arm to target locations. A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of your agent is to maintain its position at the target location for as many time steps as possible. The observation space consists of $33$ variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and +1.
 
 ### Getting Started
 The project is completed in the Udacity Workspaces. However in order to run on local machine, the following packages are required:
