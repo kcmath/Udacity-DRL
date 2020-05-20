@@ -1,4 +1,4 @@
-# p2-ContinuousControl
+# p3-CollaborationCompetition
 
 ### Introduction
 Two agents is trained in the Tennis environment to control rackets to bounce a ball over a net. The primary objective is to get an average score of +0.5 over 100 consecutive episodes after taking the maximum over both agents. The Multi-Agent Deep Deterministic Policy Gradient (MADDPG) and Multi-Agent Twin Delayed Deep Deterministic (MATD3) are utilized for the task. The project is completed in the \textit{Udacity Workspaces}.
